@@ -542,7 +542,7 @@ def main(
 
     # Write the AGP file.
     print("Writing AGP.")
-    reference_lengths = fasta.get_lengths(reference)
+    reference_lengths = fasta.lengths(reference)
     scaffolds, skipped = get_assignments(
         df=filtered,
         reference_lengths=reference_lengths,

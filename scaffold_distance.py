@@ -373,7 +373,7 @@ def distance(reference, assembly):
         return
 
     print()
-    print("     Assembly Statistics     ")
+    print("   Scaffolding Statistics    ")
     print("-----------------------------")
 
     # Grouping distance.

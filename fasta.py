@@ -1,3 +1,5 @@
+import pathlib
+
 def read(filename: pathlib.Path) -> dict:
     """
     Read a FASTA file and return a dictionary containing the sequence names and
