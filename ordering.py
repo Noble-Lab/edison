@@ -63,4 +63,7 @@ def count(first: tuple, second: tuple, orientation: bool = False) -> float:
         if edge in second_connections:
             weighted_second += current_weight
 
+    if weighted_first == 0: 
+        return 0
+
     return weighted_second / weighted_first
